@@ -1,0 +1,101 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  background: linear-gradient(to left, #c19191, #c18080);
+  color: #333;
+}
+
+.paper-box {
+  width: 100%;
+  max-width: 615px;
+  height: 100%;
+  /* max-height: 705px; */
+  margin: 0 auto;
+  padding: 28px 45px;
+  background-color: #fff;
+  box-shadow: 19px 13px 5px -3px rgba(99, 92, 92, 0.66);
+  /* display: flex;
+  flex-direction: column; */
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Main Content */
+h2 {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  height: 1.5px;
+  width: 100%;
+  background-color: #333;
+  margin: 3px 0;
+}
+
+.main-header {
+  display: flex;
+  font-size: 13px;
+  font-weight: 750;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.main-header .job-title {
+  flex: 1;
+  margin: 0;
+}
+
+.main-header .job-date {
+  margin: 0;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+
+.content p {
+  font-size: 13px;
+}
+
+/* Footer */
+.footer h2 {
+  margin-top: 15px;
+}
+
+.footer-content {
+  display: flex;
+  font-size: 13px;
+}
+
+.footer-content h3 {
+  margin-top: 10px;
+}
+
+.footer-content h3 b {
+  font-weight: 700;
+}
