@@ -1,0 +1,73 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  background-color: #c7c4c4;
+}
+
+.menu {
+  width: 100%;
+  background-color: #492de3;
+  display: flex;
+  justify-content: center;
+  font-size: 0;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+a[href="#"],
+label {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+a.home {
+  background-color: #fff;
+  color: #333;
+}
+
+a[href="#"]:hover,
+label:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.menu li {
+  position: relative;
+}
+
+input[type="checkbox"]:checked ~ a {
+  color: #333;
+}
+
+input[type="checkbox"]:checked ~ .more li {
+  display: block;
+}
+
+.more {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+a[href="@"] {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 10px;
+  font-size: 16px;
+}
+
+li[hidden]:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
