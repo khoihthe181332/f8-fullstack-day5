@@ -38,13 +38,14 @@ a[href="#"]:hover,
 label:hover {
   background-color: #fff;
   color: #333;
+  cursor: pointer;
 }
 
 .menu li {
   position: relative;
 }
 
-input[type="checkbox"]:checked ~ a {
+input[type="checkbox"]:checked ~ ul li a {
   color: #333;
 }
 
@@ -75,4 +76,13 @@ a[href="@"] {
 li[hidden]:hover {
   background-color: #f0f0f0;
   color: #333;
+}
+
+i {
+  font-size: 15px;
+}
+
+input[type="checkbox"]:checked + label i {
+  transform: rotate(90deg);
+  transition: transform 0.5s ease;
 }
